@@ -9,7 +9,7 @@ verbadge <- sprintf('<a href="https://img.shields.io/badge/Version-%s-orange.svg
 ````
 
 [![Build Status](https://travis-ci.org/trinker/rdir.svg?branch=master)](https://travis-ci.org/trinker/rdir)
-[![Coverage Status](https://coveralls.io/repos/rdir/trinker/badge.png?branch=master)](https://coveralls.io/r/rdir/trinker?branch=master)
+[![Coverage Status](https://coveralls.io/repos/trinker/rdir/badge.svg?branch=master)](https://coveralls.io/r/trinker/rdir?branch=master)
 `r verbadge`
 
 **rdir** is a Windows based package for working with directories.  
