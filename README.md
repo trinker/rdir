@@ -4,7 +4,6 @@
 
 [![Build Status](https://travis-ci.org/trinker/rdir.svg?branch=master)](https://travis-ci.org/trinker/rdir)
 [![Coverage Status](https://coveralls.io/repos/trinker/rdir/badge.svg?branch=master)](https://coveralls.io/r/trinker/rdir?branch=master)
-
 <a href="https://img.shields.io/badge/Version-0.0.1-orange.svg"><img src="https://img.shields.io/badge/Version-0.0.1-orange.svg" alt="Version"/></a></p>
 
 **rdir** is a Windows based package for working with directories.  
