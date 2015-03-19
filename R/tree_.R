@@ -8,12 +8,14 @@
 #' included.
 #' @param additional Additonal arguments passed to
 #' href{https://www.microsoft.com/resources/documentation/windows/xp/all/proddocs/en-us/tree.mspx?mfr=true}{\code{tree}}.
+#' @param copy2clip logical.  If \code{TRUE} attempts to copy to the clipboard.
 #' @export
 #' @examples
 #' \dontrun{
 #' dir_tree_win()
 #' }
-dir_tree_win <- function(path = ".", out = NULL, include.files = TRUE, additional = NULL){
+tree_ <- function(path = ".", out = NULL, include.files = TRUE,
+    additional = NULL, copy2clip = FALSE){
 
     if (is.null(out)){
         tmp <- tempdir()
@@ -22,6 +24,23 @@ dir_tree_win <- function(path = ".", out = NULL, include.files = TRUE, additiona
     fls <- ifelse(include.files, "/f", "")
     cmd <- paste("tree", shQuote(path), fls, "/a >", additional, shQuote(out))
     shell(cmd)
-    readLines(out)
+    out <- readLines(out)
+
+    if (copy2clip) write_clip(out)
+    out <- paste(out, collapse="\n")
+    class(out) <- c("tree_", class(out))
+    out
+}
+
+#' Prints a tree_ object
+#'
+#' Prints a tree_ object.
+#'
+#' @param x A \code{tree_} object.
+#' @param \ldots Other arguments passed to \code{\link[base]{cat}}.
+#' @export
+#' @method print tree_
+print.tree_ <- function(x,  ...){
+    cat(x, "\n", ...)
 }
 

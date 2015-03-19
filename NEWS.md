@@ -36,3 +36,6 @@ IMPROVEMENTS
 * Removed **reports** dependency.
 
 &lt;b&gt;CHANGES&lt;/b&gt;
+
+* Renamed `dir_tree_win` to `tree_`.  Ut gains a print method and behaves
+  similar to `path_`.
