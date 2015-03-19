@@ -1,0 +1,13 @@
+Package: rdir
+Title: Windows based package for working with directories.
+Version: 0.0.1
+Authors@R: c(person("Tyler", "Rinker", email = "tyler.rinker@gmail.com", role = c("aut", "cre")))
+Maintainer: Tyler Rinker <tyler.rinker@gmail.com>
+Description: What the package does (one paragraph)
+Depends: R (>= 3.1.2)
+Suggests: testthat
+Date: 2015-03-18
+Imports: reports
+License: GPL-2
+LazyData: TRUE
+Roxygen: list(wrap = FALSE)
