@@ -2,7 +2,7 @@
 
 
 
-[![Build Status](https://travis-ci.org/rdir/trinker.png?branch=master)](https://travis-ci.org/trinker/rdir)
+[![Build Status](https://travis-ci.org/trinker/rdir.svg?branch=master)](https://travis-ci.org/trinker/rdir)
 [![Coverage Status](https://coveralls.io/repos/rdir/trinker/badge.png?branch=master)](https://coveralls.io/r/rdir/trinker?branch=master)
 <a href="https://img.shields.io/badge/Version-0.0.1-orange.svg"><img src="https://img.shields.io/badge/Version-0.0.1-orange.svg" alt="Version"/></a></p>
 
