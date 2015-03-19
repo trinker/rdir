@@ -4,12 +4,13 @@
 \alias{path_}
 \title{Separate Path}
 \usage{
-path_(path = NULL, copy2clip = TRUE)
+path_(path = NULL, copy2clip = is.global(2))
 }
 \arguments{
 \item{path}{A path to the file/directory.}
 
-\item{copy2clip}{logical.  If \code{TRUE} attempts to copy to the clipboard.}
+\item{copy2clip}{logical.  If \code{TRUE} attempts to copy to the clipboard.
+Default copies to the clipboard if used interactively.}
 }
 \description{
 Separate a path into hierarchical drectories and file.

@@ -6,7 +6,7 @@ Versioning
 
 Releases will be numbered with the following semantic versioning format:
 
-<major>.<minor>.<patch>
+&lt;major&gt;.&lt;minor&gt;.&lt;patch&gt;
 
 And constructed with the following guidelines:
 
@@ -23,16 +23,16 @@ rdir 0.0.1
 This package is designed to perform operations related to directories and files
 on Windows machines.
 
-BUG FIXES
+&lt;b&gt;BUG FIXES&lt;/b&gt;
 
-NEW FEATURES
+&lt;b&gt;NEW FEATURES&lt;/b&gt;
 
 * `WP` added for reorienting Windows path backslashes to forward slashes.
 
-MINOR FEATURES
+&lt;b&gt;MINOR FEATURES&lt;/b&gt;
 
 IMPROVEMENTS
 
 * Removed **reports** dependency.
 
-CHANGES
+&lt;b&gt;CHANGES&lt;/b&gt;
