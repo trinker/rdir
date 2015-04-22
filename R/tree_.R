@@ -12,7 +12,7 @@
 #' @export
 #' @examples
 #' \dontrun{
-#' dir_tree_win()
+#' tree_()
 #' }
 tree_ <- function(path = ".", out = NULL, include.files = TRUE,
     additional = NULL, copy2clip = FALSE){

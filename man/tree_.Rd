@@ -25,7 +25,7 @@ Given a directory, generate a Windows based tree diagram.
 }
 \examples{
 \dontrun{
-dir_tree_win()
+tree_()
 }
 }
 
